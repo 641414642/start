@@ -1,0 +1,5 @@
+#Sat Oct 26 10:51:16 CST 2019
+module-resource*?\:file\:/Users/zhaoqixiang/Work/code/Spring-Cloud-Alibaba/project/start/spring-cloud-alibaba-demo/target/checkstyle-header.txt=C87D51DF1E623E1FB90FB3C11AFB37C516E4539F
+module-resource*?\:https\://raw.githubusercontent.com/spring-cloud/spring-cloud-build/master/spring-cloud-build-tools/src/checkstyle/checkstyle-suppressions.xml=FAE8BE4B85313AB397F771FE109C7E52ED710B31
+module-resource*?\:/Users/zhaoqixiang/Work/code/Spring-Cloud-Alibaba/project/start/src/checkstyle/checkstyle-suppressions.xml=B58CD9D191AA058C2B65773D39E5831F079A9986
+configuration*?=1DE949F2CA67E9B06897F478F0A554A5689CDF9E
