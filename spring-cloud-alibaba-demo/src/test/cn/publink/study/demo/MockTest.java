@@ -33,15 +33,14 @@ public class MockTest {
     MockService mockService;
 
 
-    /**
-     * 加载单测之前调用
-     *
-     * @param
-     * @return void
-     * @throws
-     * @author harry
-     * @date 2020/4/16 09:03
-     */
+   /**
+    * 方法功能说明
+    * @param
+    * @author      harry
+    * @date       2020/4/17 09:36
+    * @exception
+    * @return     void
+    */
     @Before
     public void beforeTest() {
         Mockito.when(mockService.getListStr()).thenReturn("Mock外部服务的返回值");

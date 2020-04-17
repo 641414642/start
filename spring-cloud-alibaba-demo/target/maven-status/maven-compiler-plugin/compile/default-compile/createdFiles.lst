@@ -1,6 +1,8 @@
 cn/publink/study/demo/SystemServiceImpl.class
 cn/publink/study/demo/InsideMockServiceImpl.class
 cn/publink/study/demo/InsideMockService.class
+cn/publink/study/demo/DO/UserDO.class
 cn/publink/study/demo/MockService.class
 cn/publink/study/Application.class
+cn/publink/study/demo/DO/UserDO$UserDOBuilder.class
 cn/publink/study/demo/SystemService.class

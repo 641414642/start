@@ -6,10 +6,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 
 /**
- * <p>功能描述</p>
- * <li>功能1</li>
- * <li>功能2</li>
- * <li>功能3</li>
+ * <p>内部服务调用Cloud服务</p>
  *
  * @author harry
  * @version 1.0.0
@@ -28,16 +25,13 @@ public class InsideMockServiceImpl implements InsideMockService {
     @Autowired
     SystemService systemService;
 
-    public void MockService(MockService mockService) {
-        this.mockService = mockService;
-
-    }
-
     @Override
     public String getString() {
         System.out.println(systemService.makeUpSystemConsole("本地服务"));
         System.out.println(mockService.getListStr());
+        System.out.println(systemService.getUserList(mockService.getListStr(), 18));
         System.out.println("本地服务结束");
         return "123";
     }
+
 }

@@ -5,10 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * <p>功能描述</p>
- * <li>功能1</li>
- * <li>功能2</li>
- * <li>功能3</li>
+ * <p>Cloud服务</p>
  *
  * @author harry
  * @version 1.0.0

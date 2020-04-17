@@ -22,7 +22,11 @@ public interface InsideMockService {
     /**
      * 得到字符串（包含调用远程服务）
      *
-     * @return 查询结果
+     * @param
+     * @return java.lang.String
+     * @throws
+     * @author harry
+     * @date 2020/4/17 09:49
      */
     String getString();
 }
