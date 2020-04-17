@@ -44,7 +44,7 @@ public class MockTest {
      */
     @Before
     public void beforeTest() {
-        Mockito.when(mockService.getListStr()).thenReturn("123");
+        Mockito.when(mockService.getListStr()).thenReturn("Mock外部服务的返回值");
     }
 
     /**

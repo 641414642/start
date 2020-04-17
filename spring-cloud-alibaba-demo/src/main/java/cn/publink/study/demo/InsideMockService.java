@@ -1,6 +1,6 @@
 package cn.publink.study.demo;
 
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.stereotype.Service;
 
 /**
  * <p>功能描述</p>
@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @package cn.publink.study.demo
  * @Modified by
  */
+@Service
 public interface InsideMockService {
 
     /**

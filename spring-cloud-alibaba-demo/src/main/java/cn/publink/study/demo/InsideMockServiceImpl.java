@@ -1,6 +1,5 @@
 package cn.publink.study.demo;
 
-import lombok.Builder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,11 +22,12 @@ import javax.annotation.Resource;
 @Service
 public class InsideMockServiceImpl implements InsideMockService {
 
-
+    @Resource
     private MockService mockService;
 
+    @Autowired
+    SystemService systemService;
 
-    @Resource
     public void MockService(MockService mockService) {
         this.mockService = mockService;
 
@@ -35,9 +35,9 @@ public class InsideMockServiceImpl implements InsideMockService {
 
     @Override
     public String getString() {
-        System.out.println("1111111111");
+        System.out.println(systemService.makeUpSystemConsole("本地服务"));
         System.out.println(mockService.getListStr());
-        System.out.println("2222222222");
+        System.out.println("本地服务结束");
         return "123";
     }
 }
