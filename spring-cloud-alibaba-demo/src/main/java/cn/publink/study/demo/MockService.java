@@ -1,7 +1,6 @@
 package cn.publink.study.demo;
 
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
@@ -18,10 +17,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(name = "outside/service")
 public interface MockService {
 
+
     /**
      * 得到字符串
      *
-     * @return 查询结果
+     * @param
+     * @return java.lang.String
+     * @throws
+     * @author harry
+     * @date 2020/4/17 11:05
      */
     @GetMapping("/a")
     String getString();
@@ -29,7 +33,11 @@ public interface MockService {
     /**
      * 得到ListStr
      *
-     * @return 查询结果
+     * @param
+     * @return java.lang.String
+     * @throws
+     * @author harry
+     * @date 2020/4/17 11:05
      */
     @GetMapping("/b")
     String getListStr();
